@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CONTACT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript">
+	function Message() {
+		var r=confirm("Do you want to leave a text?")
+		if (r==true) {
+			alert("Thank you for reaching us!")
+		}
+		else{
+			alert("press cancel")
+		}
+	
+	}
+</script>
+
+</head>
+<body>
+	<style>
+		body{
+			background-color: lightblue;
+			background-size: cover;
+		}
+
+
+	</style>
+	<section class="header"> 
+		<nav>
+			<div class="nav-links">
+				<ul>
+				 <li><a href="home.html">HOME</a></li>
+				 <li><a href="ABOUT US.html">ABOUT</a></li>
+				 <li><a href="gallery.html">GALLERY</a></li>
+				 <li><a href="contact.html">CONTACT</a></li>
+				 <style>
+.nav-links{
+	flex:1;
+	text-align:right;
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position:relative;
+}
+.nav-links ul li a{
+color:#fff;
+text-decoration:none;
+font-size: 13px;
+}
+				 	
+			</style>
+				</ul>
+			</div>
+		</nav>
+</head>
+</section>
+<h1>Contact us</h1>
+	<form id="form">
+		<input type="text" placeholder="Enter name"><br><br>
+		<input type="text" placeholder="Enter Phone"><br><br>
+		<input type="text" placeholder="Reg No"><br><br>
+		<input type="text" placeholder="@Email"><br><br>
+		<textarea rows="3" cols="30" placeholder="Comment"></textarea><br><br>
+		<button type="Submit">Submit</button>
+		<input type="submit" name="submit" value="send now"
+		onclick="Message()">
+	</form>
+    </nav>
+    <footer>
+    	<h2>Follow us;</h2>
+    	<p>
+    		Phone number:+254 172 198 167<br><br>
+    		Email Address:eheaven@gmail.com<br><br>
+    		P.O BOX 65 KABA,KENYA<br><br>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+</p>
+      </footer>
+   </body>
+</html>
